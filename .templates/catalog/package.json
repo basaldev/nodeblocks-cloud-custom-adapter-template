@@ -12,11 +12,11 @@
   "author": "Basal Inc.",
   "license": "UNLICENSED",
   "dependencies": {
-    "@basaldev/blocks-backend-sdk": "^3.3.0",
-    "@basaldev/blocks-catalog-service": "^5.1.0"
+    "@basaldev/blocks-backend-sdk": "3.4.1",
+    "@basaldev/blocks-catalog-service": "6.0.0"
   },
   "devDependencies": {
-    "@basaldev/nodeblocks-cloud-sdk": "^0.4.0",
-    "typescript": "^5.4.5"
+    "@basaldev/nodeblocks-cloud-sdk": "0.7.0",
+    "typescript": "^5.8.3"
   }
 }
