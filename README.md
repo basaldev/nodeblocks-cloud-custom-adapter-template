@@ -51,10 +51,10 @@ You will need a `npm auth token` in order to access these packages.
 Please prepare this token using the steps below before continuing with setup.
 
 1. Ask Nodeblocks team for a valid `npm auth token`.
-1. Add the token as `BASALDEV_AUTH_TOKEN` to your local environment - `.zshrc` `.bashrc` etc
+1. Add the token as `NODEBLOCKS_DEV_TOKEN` to your local environment - `.zshrc` `.bashrc` etc
 
 ```bash
-export BASALDEV_AUTH_TOKEN=__INSERT_YOUR_TOKEN_HERE__
+export NODEBLOCKS_DEV_TOKEN=__INSERT_YOUR_TOKEN_HERE__
 ```
 
 ### Create a new repository for the custom adapter
