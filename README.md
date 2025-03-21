@@ -207,6 +207,7 @@ The config value type can be one of the following:
       "description": "The example of String type config value.",
       "type": "string",
       "name": "ADAPTER_CUSTOM_STRING", // It must start with "ADAPTER_CUSTOM_"
+      "isSecret": false,
       "required": false,
       "defaultValue": "test"
     },
