@@ -9,6 +9,7 @@
       "type": "string",
       "name": "ADAPTER_CUSTOM_STRING",
       "required": false,
+      "isSecret": false,
       "defaultValue": "test"
     },
     {
@@ -17,6 +18,7 @@
       "type": "number",
       "name": "ADAPTER_CUSTOM_NUMBER",
       "required": false,
+      "isSecret": false,
       "defaultValue": "123"
     },
     {
@@ -25,6 +27,7 @@
       "type": "boolean",
       "name": "ADAPTER_CUSTOM_BOOLEAN",
       "required": false,
+      "isSecret": false,
       "defaultValue": "true"
     },
     {
@@ -33,6 +36,7 @@
       "type": "regexp",
       "name": "ADAPTER_CUSTOM_REGEXP",
       "required": false,
+      "isSecret": false,
       "defaultValue": "^.*$"
     },
     {
@@ -41,6 +45,7 @@
       "type": "multiline",
       "name": "ADAPTER_CUSTOM_MULTILINE",
       "required": false,
+      "isSecret": false,
       "defaultValue": "test"
     },
     {
@@ -49,6 +54,7 @@
       "type": "json",
       "name": "ADAPTER_CUSTOM_JSON",
       "required": false,
+      "isSecret": false,
       "defaultValue": "{ \"key\": \"value\" }"
     },
     {
@@ -57,6 +63,7 @@
       "type": "commaSeparatedList",
       "name": "ADAPTER_CUSTOM_COMMA_SEPARATED_LIST",
       "required": false,
+      "isSecret": false,
       "defaultValue": "foo,bar"
     },
     {
@@ -69,6 +76,7 @@
       ],
       "name": "ADAPTER_CUSTOM_SELECT",
       "required": false,
+      "isSecret": false,
       "defaultValue": "foo"
     }
   ]
